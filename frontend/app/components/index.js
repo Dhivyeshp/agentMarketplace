@@ -13,7 +13,6 @@ import { GlowingEffect } from "./ui/glowing-effect";
 import { TestimonialsColumn } from "./ui/testimonials-columns-1";
 import { headerNavLinks, howItWorksSteps, footerNavigation, testimonials } from "../lib/mockData";
 import { TechBackground } from "./ui/tech-background";
-
 // Header Component
 export const Header = () => {
   return (
@@ -83,9 +82,13 @@ export const Header = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <RainbowButton className="font-sans text-sm font-medium">
-                Sign Up
-              </RainbowButton>
+
+              <Link href="/signup" passHref>
+               <RainbowButton as="a" className="font-sans text-sm font-medium">
+                  Sign Up
+                </RainbowButton>
+              </Link>
+              
             </motion.div>
           </motion.div>
         </div>
