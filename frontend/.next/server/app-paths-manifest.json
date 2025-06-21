@@ -1,6 +1,6 @@
 {
-  "/page": "app/page.js",
   "/signup/page": "app/signup/page.js",
-  "/agents/page": "app/agents/page.js",
-  "/agents/coldemailing/page": "app/agents/coldemailing/page.js"
+  "/login/page": "app/login/page.js",
+  "/agents/coldemailing/page": "app/agents/coldemailing/page.js",
+  "/agents/page": "app/agents/page.js"
 }
