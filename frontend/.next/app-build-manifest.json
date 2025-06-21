@@ -16,6 +16,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/signup/page.js"
     ],
+    "/agents/domainchecker/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/agents/domainchecker/page.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/login/page.js"
+    ],
     "/agents/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
