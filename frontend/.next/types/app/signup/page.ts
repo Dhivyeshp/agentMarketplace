@@ -1,4 +1,4 @@
-// File: /Users/saikarthikbattula/Desktop/agentMarketplace/frontend/app/signup/page.js
+// File: /Users/saikarthikbattula/Desktop/agentMarketplace/frontend/app/signup/page.tsx
 import * as entry from '../../../../app/signup/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
